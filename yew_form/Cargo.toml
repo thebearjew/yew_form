@@ -7,21 +7,17 @@ description = "Bringing MVC to Yew! A set mildly opinionated Yew component to ma
 license = "MIT"
 repository = "https://github.com/thebearjew/yew_form"
 readme = "../README.md"
-categories = [ "web-programming" ]
+categories = ["web-programming"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 wasm-bindgen = "0.2"
-validator = "0.14.0"
-validator_derive = "0.14.0"
+validator = "0.16.0"
+validator_derive = "0.16.0"
 yew = "0.19.3"
 gloo-console = "0.2"
 
 [dependencies.web-sys]
 version = "0.3"
-features = [
-"HtmlInputElement",
-"HtmlSelectElement",
-"HtmlTextAreaElement"
-]
+features = ["HtmlInputElement", "HtmlSelectElement", "HtmlTextAreaElement"]
